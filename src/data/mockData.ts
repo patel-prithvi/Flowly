@@ -196,7 +196,7 @@ export const initialCalendarEvents: CalendarEvent[] = [
   },
   {
     id: 'c5',
-    title: 'Going for event',
+    title: 'Going for Hackathon',
     time: '1:00 PM – 6:00 PM',
     category: 'Work',
     date: '2026-10-16',

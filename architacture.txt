@@ -1,0 +1,44 @@
+Flowly/
+├── App.tsx                        # Root Application Entry Point
+├── app.json                       # Expo Configuration
+├── package.json                   # Dependencies & Scripts
+├── tsconfig.json                  # TypeScript Compiler Configuration
+├── babel.config.js                # Babel Transpiler Configuration
+├── TASKS.md                       # Project Checklist & Modules Plan
+│
+└── src/
+    ├── types/
+    │   └── index.ts               # Core TypeScript Interfaces & Types
+    ├── theme/
+    │   └── theme.ts               # Design System (Colors, Typography, Spacing)
+    ├── data/
+    │   └── mockData.ts            # Realistic Mock Data for Showcase
+    ├── context/
+    │   └── AppContext.tsx         # Central React Context (State & Handlers)
+    │
+    ├── components/                # Reusable UI Components
+    │   ├── AppHeader.tsx          # Top Editorial Header bar
+    │   ├── TaskItem.tsx           # Interactive Task Row with Checkbox
+    │   ├── GoalCard.tsx           # Goal Progress Card with percentage
+    │   ├── HabitRow.tsx           # Weekday Habit Row (M T W T F S S)
+    │   ├── QuoteCard.tsx          # Editorial Daily Wisdom Quote Card
+    │   ├── PrimaryButton.tsx      # Tactile Pressable Button with variants
+    │   ├── ProgressBar.tsx        # Rounded Pastel Progress Bar
+    │   ├── CategoryChip.tsx       # Color-coded Tag Pills
+    │   ├── StatCard.tsx           # Metric Card with Trend Badges
+    │   └── CustomTabBar.tsx       # Custom Floating Bottom Nav with '+' button
+    │
+    ├── screens/                   # App Screen Views
+    │   ├── SplashScreen.tsx       # Brand Landing Screen with CTA
+    │   ├── OnboardingScreen.tsx    # 3-Step Interactive Carousel
+    │   ├── HomeScreen.tsx         # Main Dashboard & "Today's Focus" Tasks
+    │   ├── FocusScreen.tsx        # Pomodoro Countdown Timer
+    │   ├── GoalsScreen.tsx        # Goal Progress & Goal Creation Modal
+    │   ├── CalendarScreen.tsx     # September 2026 Interactive Calendar & Schedule
+    │   ├── HabitTrackerScreen.tsx # Weekly Habit Check-in & Streaks
+    │   ├── AddTaskScreen.tsx      # Add Task Bottom Sheet / Modal
+    │   ├── InsightsScreen.tsx     # Weekly Chart & Time Breakdown
+    │   └── ProfileScreen.tsx      # Profile, Settings, Theme & Notification Toggles
+    │
+    └── navigation/
+        └── AppNavigator.tsx       # Navigation Stack + Bottom Tab Router

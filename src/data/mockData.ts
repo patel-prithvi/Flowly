@@ -194,6 +194,15 @@ export const initialCalendarEvents: CalendarEvent[] = [
     location: 'Google Meet',
     color: '#E07A5F',
   },
+  {
+    id: 'c5',
+    title: 'Going for event',
+    time: '1:00 PM – 6:00 PM',
+    category: 'Work',
+    date: '2026-10-16',
+    location: 'Ahmedabad',
+    color: '#E07A5F',
+  },
 ];
 
 export const mockWeeklyInsights: WeeklyInsight[] = [

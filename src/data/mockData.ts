@@ -155,6 +155,15 @@ export const initialHabits: Habit[] = [
     days: [true, false, true, true, true, false, true],
     streak: 3,
   },
+  {
+    id: 'h6',
+    title: 'No outside food',
+    icon: '🍎',
+    category: 'Health',
+    color: '#E5A93C',
+    days: [true, false, true, true, true, false, true],
+    streak: 3,
+  },
 ];
 
 export const initialCalendarEvents: CalendarEvent[] = [

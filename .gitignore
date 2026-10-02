@@ -1,1 +1,2 @@
-node_modules/
+# Not to be included
+node_modules 
